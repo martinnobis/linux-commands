@@ -1,0 +1,11 @@
+alias f='find . -name'
+alias fi='find . -iname'          # same as above but case insensitive
+alias fd='find . -typde d -name'  # for directories
+alias fd='find . -type d -iname'  # same as above but case insensitive
+
+alias g='grep -nr'
+alias gi='grep -nri'              # same as above but case insensitive
+
+alias st='git status'
+alias gd='git diff'
+alias gdc='git diff --cached'     # when things have already been added to the index
