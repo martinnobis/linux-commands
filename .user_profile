@@ -10,3 +10,5 @@ alias gi='grep -ril'              # same as above but print just filename
 alias st='git status'
 alias gd='git diff'
 alias gdc='git diff --cached'     # when things have already been added to the index
+
+# tree -d, often just 'tree' lists a ton of files when you only want to see the layout of the directory.
