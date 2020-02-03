@@ -3,8 +3,9 @@ alias fi='find . -iname'          # same as above but case insensitive
 alias fd='find . -typde d -name'  # for directories
 alias fd='find . -type d -iname'  # same as above but case insensitive
 
-alias g='grep -nr'
+alias g='grep -nr'                # print line number, recursive
 alias gi='grep -nri'              # same as above but case insensitive
+alias gi='grep -ril'              # same as above but print just filename
 
 alias st='git status'
 alias gd='git diff'
